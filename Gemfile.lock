@@ -40,11 +40,12 @@ GEM
     fast_blank (1.0.1)
     fastimage (2.2.6)
     ffi (1.15.5)
-    haml (5.2.2)
-      temple (>= 0.8.0)
+    haml (6.0.7)
+      temple (>= 0.8.2)
+      thor
       tilt
-    haml_lint (0.40.1)
-      haml (>= 4.0, < 5.3)
+    haml_lint (0.42.0)
+      haml (>= 4.0, < 6.1)
       parallel (~> 1.10)
       rainbow
       rubocop (>= 0.50.0)
@@ -193,7 +194,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder
-  haml (~> 5.2.2)
+  haml (~> 6.0.7)
   haml_lint (~> 0.40)
   kramdown
   middleman (~> 4.4)
