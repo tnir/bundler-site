@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/apjanke/ronn-ng.git
-  revision: 40b8e193bdee2e446473702f31315c2861c57657
+  revision: fb0a11ccec49d951572d87c19b83ebab55adde6d
   specs:
-    ronn-ng (0.10.1.pre1)
+    ronn-ng (0.10.1.pre2)
       kramdown (~> 2.1)
-      kramdown-parser-gfm (~> 1.0.1)
+      kramdown-parser-gfm (>= 1.0.1, < 1.2)
       mustache (~> 1.0)
       nokogiri (~> 1.10, >= 1.10.10)
 
@@ -106,7 +106,7 @@ GEM
     json (2.6.3)
     kramdown (2.4.0)
       rexml
-    kramdown-parser-gfm (1.0.1)
+    kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     libv8-node (16.10.0.0)
     libv8-node (16.10.0.0-arm64-darwin)
@@ -123,7 +123,7 @@ GEM
     middleman-syntax (3.3.0)
       middleman-core (>= 3.2)
       rouge (~> 3.2)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.1)
     mini_racer (0.6.3)
       libv8-node (~> 16.10.0.0)
     minitest (5.17.0)
