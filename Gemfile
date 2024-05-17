@@ -28,7 +28,7 @@ group :development do
   gem "irb"
   gem "pry-byebug"
 
-  gem "haml_lint", "~> 0.52"
-  gem "rubocop"
+  gem "haml_lint", "~> 0.53", ">= 0.53.0"
+  gem "rubocop", ">= 1.60.0"
   gem "rubocop-rake", require: false
 end
